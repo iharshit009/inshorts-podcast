@@ -31,4 +31,4 @@ for require in soup.find_all('div', class_='news-card z-depth-1'):
         print(href_tags.get('href'))
     except:
 
-        print("Couldn't not find any link")
+        print("**********Couldn't not find any link************")
